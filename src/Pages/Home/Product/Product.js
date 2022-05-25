@@ -13,7 +13,7 @@ const Product = ({ product }) => {
     <div>
       <div className="card lg:max-w-lg bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
-          <img src={img} alt="" class="rounded-xl" />
+          <img src={img} alt="" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">{name}</h2>
@@ -28,8 +28,11 @@ const Product = ({ product }) => {
             <span className="font-bold">Availble Quantity:</span>{" "}
             {AvailbleQuantity}
           </p>
-          <div class="card-actions">
-            <button onClick={() => ProductDeatils(id)} class="btn btn-primary">
+          <div clasName="card-actions">
+            <button
+              onClick={() => ProductDeatils(id)}
+              className="btn btn-primary"
+            >
               Buy Now
             </button>
           </div>
