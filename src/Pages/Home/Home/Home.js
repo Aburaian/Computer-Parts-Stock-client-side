@@ -4,6 +4,7 @@ import Galary from "../Galary/Galary";
 import PartsStock from "../PartsStock/PartsStock";
 import Products from "../Products/Products";
 import Reviews from "../Reviews/Reviews";
+import Footer from "../../SharedPages/Footer/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Reviews></Reviews>
       <Galary></Galary>
       <PartsStock></PartsStock>
+      <Footer></Footer>
     </div>
   );
 };
