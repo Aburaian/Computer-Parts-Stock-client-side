@@ -1,0 +1,63 @@
+[
+
+{
+"id": "1",
+        "name": "Intel Core i7 4790 4th Gen 8MB Smart Cache 3.6 GHz Processor",
+        "price": " BDT 8500/pcs",
+        "MQuantity": "200",
+        "AvailbleQuantity": "531pcs",
+        "description": "Intel Core i7 4790 4th generation processor has 3.6 GHz speed, maximum turbo frequency 4GHz, 8-megabyte smart cache memory, conflict-free, Intel quick sync video, Intel InTru 3D technology, Intel wireless display, secure key.",
+        "img": "https://www.bdstall.com/asset/product-image/giant_133890.jpg"
+    },
+
+{
+"id": "2",
+        "name": "MSI H61M-P31 DDR3 Desktop Motherboard ",
+        "price": "BDT 3800/pcs",
+        "MQuantity": "200",
+        "AvailbleQuantity": "600pcs",
+        "description": "Dual memory channel, 100 MHz base clock, 1600 MHz supported with Intel Ivy Bridge processor, 16GB maximum storage, base clock / hyper transport chipset, 1 DVI, 2 DIMM slots, 4 SATAII, 3 audio ports.",
+        "img": "https://www.bdstall.com/asset/product-image/giant_91154.jpg"
+    },
+
+{
+"id": "3",
+        "name": "Juhor DDR4 8GB RAM",
+        "price": " BDT 2600/pcs",
+        "MQuantity": "200",
+        "AvailbleQuantity": "800pcs",
+        "description": "8GB memory capacity, faster burst access speeds for data throughput, 100% tested / RoHS, easy to install-plug-and-play functionality, PCB material, 1.2V working voltage, 13.4 x 3.1 x 0.1cm dimension.",
+        "img": "https://www.bdstall.com/asset/product-image/giant_122097.jpg"
+    },
+
+{
+"id": "4",
+        "name": "WD Purple 8TB Surveillance Video Recording Hard Drive",
+        "price": " BDT 19500/pcs",
+        "MQuantity": "200",
+        "AvailbleQuantity": "234pcs",
+        "description": "Western Digital WD81PURZ surveillance video recording hard drive has 8 TB storage, ideal HDD for CCTV recording, 3.5 x 1 / 3H form factor, SATA 6Gb/s interface, 64 MB buffer size.",
+        "img": "https://www.bdstall.com/asset/product-image/giant_83338.jpg"
+    },
+
+{
+"id": "5",
+        "name": "AData XPG SX6000 Pro M.2 512GB PCIe SSD",
+        "price": " BDT 6000/pcs",
+        "MQuantity": "200",
+        "AvailbleQuantity": "635pcs",
+        "description": "This AData XPG SX6000 SSD interfaces to the host through a PCIe 3.0 x 4 link and communicates using the NVMe 1.3 protocol. It can deliver a read/write speed of up to 2100 / 1500 Mbps, and its random 4K performance can reach up to 250000 / 240000 IOPS read / write.",
+        "img": "https://www.bdstall.com/asset/product-image/giant_157816.jpg"
+    },
+
+
+{
+"id": "6",
+        "name": "Gigabyte GT 710 2GB DDR3 Memory 954MHz Graphics Card",
+        "price": " BDT 4600/pcs",
+        "MQuantity": "200",
+        "AvailbleQuantity": "330pcs",
+        "description": "Gigabyte GT 710 graphics card has 2 GB DDR3 memory, 64-bit memory interface, Nvidia GeForce GT 710 graphics engine, 954 MHz core clock speed, size 21 x 144 x 68 mm, memory clock v2.0 1600 MHz / v1.0 1800 MHz, supports PCI express 2.0 x 8 bus interface.",
+        "img": "https://www.bdstall.com/asset/product-image/giant_124487.jpg"
+    }
+]
