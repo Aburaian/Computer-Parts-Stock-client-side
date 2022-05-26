@@ -41,125 +41,125 @@ const MyPortfolio = () => {
             <span className="text-primary font-bold">Skills</span>{" "}
           </h2>
         </div>
-        <div className="py-4">
+        <div className="py-4 container flex justify-center items-center">
           {" "}
-          <span>HTML </span>
+          <p className="me-4">HTML </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="90"
             max="100"
           ></progress>{" "}
-          <span>90%</span>
+          <p className="ms-4">90% </p>
         </div>
-        <div className="py-4">
+        <div className="container flex justify-center items-center">
           {" "}
-          <span>HTML5 </span>
+          <p className="me-4">HTML5 </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="95"
             max="100"
           ></progress>{" "}
-          <span>95%</span>
+          <p className="ms-4">95% </p>
         </div>
-        <div className="py-4">
+        <div className="py-4 container flex justify-center items-center">
           {" "}
-          <span>CSS </span>
+          <p className="me-4">CSS </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="95"
             max="100"
           ></progress>{" "}
-          <span>95%</span>
+          <p className="ms-4">95% </p>
         </div>
-        <div className="py-4">
+        <div className="container flex justify-center items-center">
           {" "}
-          <span>Bootstrap </span>
+          <p className="me-4">Bootstrap </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="98"
             max="100"
           ></progress>{" "}
-          <span>98%</span>
+          <p className="ms-4">98% </p>
         </div>
-        <div className="py-4">
+        <div className="py-4 container flex justify-center items-center">
           {" "}
-          <span>Tailwind </span>
+          <p className="me-4">Tailwind </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="98"
             max="100"
           ></progress>{" "}
-          <span>98%</span>
+          <p className="ms-4">98% </p>
         </div>
-        <div className="py-4">
+        <div className="container flex justify-center items-center">
           {" "}
-          <span>Java Script </span>
+          <p className="me-4">Java Script </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="90"
             max="100"
           ></progress>{" "}
-          <span>90%</span>
+          <p className="ms-4">90% </p>
         </div>
-        <div className="py-4">
+        <div className="py-4 container flex justify-center items-center">
           {" "}
-          <span>React </span>
+          <p className="me-4">React </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="95"
             max="100"
           ></progress>{" "}
-          <span>95%</span>
+          <p className="ms-4">95% </p>
         </div>
-        <div className="py-4">
+        <div className=" container flex justify-center items-center">
           {" "}
-          <span>React All Library </span>
+          <p className="me-4">React All Library </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="95"
             max="100"
           ></progress>{" "}
-          <span>95%</span>
+          <p className="ms-4">95% </p>
         </div>
-        <div className="py-4">
+        <div className="py-4 container flex justify-center items-center">
           {" "}
-          <span>Firebase </span>
+          <p className="me-4">react router </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="95"
             max="100"
           ></progress>{" "}
-          <span>90%</span>
+          <p className="ms-4">95% </p>
         </div>
-        <div className="py-4">
+        <div className="container flex justify-center items-center">
           {" "}
-          <span>react router </span>
+          <p className="me-4">Firebase </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="90"
             max="100"
           ></progress>{" "}
-          <span>90%</span>
+          <p className="ms-4">90% </p>
         </div>
-        <div className="py-4">
+        <div className="py-4 container flex justify-center items-center">
           {" "}
-          <span>Node js </span>
+          <p className="me-4">Node js </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="80"
             max="100"
           ></progress>{" "}
-          <span>80%</span>
+          <p className="ms-4">80% </p>
         </div>
-        <div className="py-4">
+        <div className=" container flex justify-center items-center">
           {" "}
-          <span>Mongo Db </span>
+          <p className="me-4">Mongo DB </p>{" "}
           <progress
-            className="progress progress-success w-56"
-            value="60"
+            className="progress progress-success w-50"
+            value="80"
             max="100"
           ></progress>{" "}
-          <span>80%</span>
+          <p className="ms-4">80% </p>
         </div>
         <div className="text-center pt-12">
           <h2 className=" text-xl font-bold">

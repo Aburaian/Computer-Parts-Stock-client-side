@@ -11,7 +11,7 @@ const Header = () => {
     signOut(auth);
   };
   return (
-    <header className="container mx-auto">
+    <header>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -61,7 +61,7 @@ const Header = () => {
               {
                 <li>
                   {user ? (
-                    <button className="btn btn-" onClick={logout}>
+                    <button className="btn btn-primary" onClick={logout}>
                       Sign Out
                     </button>
                   ) : (
@@ -109,7 +109,7 @@ const Header = () => {
             {
               <li>
                 {user ? (
-                  <button className="btn btn-" onClick={logout}>
+                  <button className="btn btn-primary" onClick={logout}>
                     Sign Out
                   </button>
                 ) : (

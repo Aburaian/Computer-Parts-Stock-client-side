@@ -14,90 +14,90 @@ const PartsStock = () => {
         <p className="me-4">UPS </p>{" "}
         <progress
           className="progress progress-success w-50"
-          value="60"
+          value="50"
           max="100"
         ></progress>{" "}
         <p className="ms-4">50% </p>
       </div>
-      <div className=" container flex justify-center items-center">
+      <div className="container flex justify-center items-center">
         {" "}
         <p className="me-4">Processor </p>
+        <progress
+          className="progress progress-success w-50"
+          value="65"
+          max="100"
+        ></progress>{" "}
+        <p className="ms-4">65%</p>
+      </div>
+      <div className="py-4 container flex justify-center items-center">
+        {" "}
+        <p className="me-4">Motherboard </p>
         <progress
           className="progress progress-success w-50"
           value="60"
           max="100"
         ></progress>{" "}
-        <p className="ms-4">65%</p>
+        <p className="ms-4">60%</p>
       </div>
-      <div className="py-4">
+      <div className="container flex justify-center items-center">
         {" "}
-        <span>Motherboard </span>
+        <p className="me-4">RAM </p>
         <progress
-          className="progress progress-success w-56"
-          value="60"
+          className="progress progress-success w-50"
+          value="40"
           max="100"
         ></progress>{" "}
-        <span>60%</span>
+        <p className="ms-4">40%</p>
       </div>
-      <div>
+      <div className=" py-4 container flex justify-center items-center">
         {" "}
-        <span>RAM </span>
+        <p className="me-4">Hard Disk </p>
         <progress
-          className="progress progress-success w-56"
-          value="60"
+          className="progress progress-success w-50"
+          value="54"
           max="100"
         ></progress>{" "}
-        <span>40%</span>
+        <p className="ms-4">54%</p>
       </div>
-      <div className="py-4">
+      <div className="container flex justify-center items-center">
         {" "}
-        <span>Hard Disk </span>
+        <p className="me-4">SSD </p>
         <progress
-          className="progress progress-success w-56"
-          value="60"
+          className="progress progress-success w-50"
+          value="85"
           max="100"
         ></progress>{" "}
-        <span>54%</span>
+        <p className="ms-4">85%</p>
       </div>
-      <div>
+      <div className="py-4 container flex justify-center items-center">
         {" "}
-        <span>SSD </span>
+        <p className="me-4">Graphics Card </p>
         <progress
-          className="progress progress-success w-56"
-          value="60"
+          className="progress progress-success w-50"
+          value="33"
           max="100"
         ></progress>{" "}
-        <span>85%</span>
+        <p className="ms-4">33%</p>
       </div>
-      <div className="py-4">
+      <div className="container flex justify-center items-center">
         {" "}
-        <span>Graphics Card </span>
+        <p className="me-4">CPU Cooler </p>
         <progress
-          className="progress progress-success w-56"
-          value="60"
+          className="progress progress-success w-50"
+          value="52"
           max="100"
         ></progress>{" "}
-        <span>33%</span>
+        <p className="ms-4">52%</p>
       </div>
-      <div className="py-2">
+      <div className=" py-4 container flex justify-center items-center">
         {" "}
-        <span>CPU Cooler </span>
+        <p className="me-4">Computer Casing </p>
         <progress
-          className="progress progress-success w-56"
-          value="60"
+          className="progress progress-success w-50"
+          value="90"
           max="100"
         ></progress>{" "}
-        <span>52%</span>
-      </div>
-      <div className="py-4">
-        {" "}
-        <span>Computer Casing </span>
-        <progress
-          className="progress progress-success w-56"
-          value="60"
-          max="100"
-        ></progress>{" "}
-        <span>90%</span>
+        <p className="ms-4">90%</p>
       </div>
     </div>
   );
