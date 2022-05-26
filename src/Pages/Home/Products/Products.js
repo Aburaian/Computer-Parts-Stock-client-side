@@ -6,9 +6,8 @@ const Products = () => {
   return (
     <div className="my-20">
       <div className="text-center pb-8">
-        <h2 className=" text-xl font-bold uppercase">
-          Computer{" "}
-          <span className="text-primary font-bold uppercase"> Parts</span>{" "}
+        <h2 className=" text-xl font-bold">
+          Computer <span className="text-primary font-bold"> Parts</span>{" "}
         </h2>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -8,6 +8,7 @@ import ProductsDetails from "./Pages/Home/ProductsDetails/ProductsDetails";
 import Reviews from "./Pages/Home/Reviews/Reviews";
 import Login from "./Pages/LogIn/Login/Login";
 import Register from "./Pages/LogIn/Register/Register";
+import MyPortfolio from "./Pages/MyPortfolio/MyPortfolio";
 import Header from "./Pages/SharedPages/Header/Header";
 import NotFound from "./Pages/SharedPages/NotFound/NotFound";
 
@@ -22,6 +23,10 @@ function App() {
         <Route path="/galary" element={<Galary></Galary>}></Route>
         <Route path="/review" element={<Reviews></Reviews>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route
+          path="/MyPortfolio"
+          element={<MyPortfolio></MyPortfolio>}
+        ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route

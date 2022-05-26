@@ -4,30 +4,30 @@ const PartsStock = () => {
   return (
     <div className="bg-gray-200 py-8">
       <div className="text-center pb-8">
-        <h2 className=" text-xl font-bold uppercase">
+        <h2 className=" text-xl font-bold">
           Parts{"   "}
-          <span className="text-primary font-bold uppercase">Stock</span>{" "}
+          <span className="text-primary font-bold">Stock</span>{" "}
         </h2>
       </div>
-      <div className="py-4">
+      <div className="py-4 container flex justify-center items-center">
         {" "}
-        <span>UPS </span>
+        <p className="me-4">UPS </p>{" "}
         <progress
-          className="progress progress-success w-56"
+          className="progress progress-success w-50"
           value="60"
           max="100"
         ></progress>{" "}
-        <span>50%</span>
+        <p className="ms-4">50% </p>
       </div>
-      <div>
+      <div className=" container flex justify-center items-center">
         {" "}
-        <span>Processor </span>
+        <p className="me-4">Processor </p>
         <progress
-          className="progress progress-success w-56"
+          className="progress progress-success w-50"
           value="60"
           max="100"
         ></progress>{" "}
-        <span>65%</span>
+        <p className="ms-4">65%</p>
       </div>
       <div className="py-4">
         {" "}

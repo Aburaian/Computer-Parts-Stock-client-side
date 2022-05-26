@@ -1,12 +1,15 @@
+import { signOut } from "firebase/auth";
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
+import auth from "../../../firebase.init";
 
 const Header = () => {
-  //   const [user] = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
-  //   const logout = () => {
-  //     signOut(auth);
-  //   };
+  const logout = () => {
+    signOut(auth);
+  };
   return (
     <header className="container mx-auto">
       <div className="navbar bg-base-100">
@@ -47,20 +50,25 @@ const Header = () => {
               <li>
                 <Link to="/blogs">Blogs</Link>
               </li>
-              {/* {user && (
               <li>
-                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/MyPortfolio">My Portfolio</Link>
               </li>
-            )} */}
-              {/* <li>
-              {user ? (
-                <button className="btn btn-" onClick={logout}>
-                  Sign Out
-                </button>
-              ) : (
-                <Link to="/login">Login</Link>
+              {user && (
+                <li>
+                  <Link to="/dashboard">Dashboard</Link>
+                </li>
               )}
-            </li> */}
+              {
+                <li>
+                  {user ? (
+                    <button className="btn btn-" onClick={logout}>
+                      Sign Out
+                    </button>
+                  ) : (
+                    <Link to="/login">Login</Link>
+                  )}
+                </li>
+              }
             </ul>
           </div>
           <div className="w-16 h-16 mt-2 rounded-full">
@@ -90,12 +98,15 @@ const Header = () => {
             <li>
               <Link to="/blogs">Blogs</Link>
             </li>
-            {/* {{user && (
+            <li>
+              <Link to="/MyPortfolio">My Portfolio</Link>
+            </li>
+            {user && (
               <li>
                 <Link to="/dashboard">Dashboard</Link>
               </li>
-            )}} */}
-            {/* {
+            )}
+            {
               <li>
                 {user ? (
                   <button className="btn btn-" onClick={logout}>
@@ -105,7 +116,7 @@ const Header = () => {
                   <Link to="/login">Login</Link>
                 )}
               </li>
-            } */}
+            }
           </ul>
         </div>
         <div className="navbar-end">

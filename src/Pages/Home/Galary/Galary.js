@@ -4,8 +4,8 @@ const Galary = () => {
   return (
     <div className="my-20">
       <div className="text-center pb-8">
-        <h2 className=" text-xl font-bold uppercase">
-          Parts <span className="text-primary font-bold uppercase">Galary</span>
+        <h2 className=" text-xl font-bold">
+          Parts <span className="text-primary font-bold">Galary</span>
         </h2>
       </div>
 

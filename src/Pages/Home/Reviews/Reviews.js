@@ -7,9 +7,9 @@ const Reviews = () => {
   return (
     <div className="my-20">
       <div className="text-center pb-8">
-        <h2 className=" text-xl font-bold uppercase">
+        <h2 className=" text-xl font-bold">
           Parts{"   "}
-          <span className="text-primary font-bold uppercase">Reviews</span>{" "}
+          <span className="text-primary font-bold">Reviews</span>{" "}
         </h2>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
