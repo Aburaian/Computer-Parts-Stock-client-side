@@ -5,12 +5,14 @@ import PartsStock from "../PartsStock/PartsStock";
 import Products from "../Products/Products";
 import Reviews from "../Reviews/Reviews";
 import Footer from "../../SharedPages/Footer/Footer";
+import Business from "../../Business/Business";
 
 const Home = () => {
   return (
     <div>
       <Bannar></Bannar>
       <Products></Products>
+      <Business></Business>
       <Reviews></Reviews>
       <Galary></Galary>
       <PartsStock></PartsStock>
