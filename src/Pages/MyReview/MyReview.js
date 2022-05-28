@@ -6,7 +6,7 @@ const MyReview = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    const url = `https://stark-coast-67001.herokuapp.com/product`;
+    const url = `https://calm-hamlet-14735.herokuapp.com/review`;
     fetch(url, {
       method: "POST",
       headers: {

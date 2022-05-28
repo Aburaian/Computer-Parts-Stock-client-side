@@ -1,7 +1,7 @@
 # Computer Parts Stock
 
 ### This project link
-[Computer Parts Stock](https://warehouse-client-side-de85b.web.app/).
+[Computer Parts Stock](https://computer-parts-client-side.web.app/).
 
 ## Description
 

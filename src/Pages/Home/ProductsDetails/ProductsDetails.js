@@ -8,7 +8,7 @@ const ProductsDetails = () => {
   const [product, setProduct] = useState({});
 
   useEffect(() => {
-    const url = `http://localhost:5000/product/${productId}`;
+    const url = `https://calm-hamlet-14735.herokuapp.com/product/${productId}`;
     console.log(url);
     fetch(url)
       .then((res) => res.json())
@@ -20,7 +20,7 @@ const ProductsDetails = () => {
     const number = e.target.number.value;
     if (number > 0) {
       const updateQuantity = product?.quantity + parseInt(number);
-      fetch(`https://stark-coast-67001.herokuapp.com/product/${productId}`, {
+      fetch(`https://calm-hamlet-14735.herokuapp.com/product/${productId}`, {
         method: "put",
         headers: {
           "content-type": "application/json",
