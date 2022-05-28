@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const Product = ({ product }) => {
-  const { id, price, img, MQuantity, description, name, AvailbleQuantity } =
+  const { _id, price, img, MQuantity, description, name, AvailbleQuantity } =
     product;
 
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ const Product = ({ product }) => {
           </p>
           <div clasName="card-actions">
             <button
-              onClick={() => ProductDeatils(id)}
+              onClick={() => ProductDeatils(_id)}
               className="btn btn-primary"
             >
               Buy Now
