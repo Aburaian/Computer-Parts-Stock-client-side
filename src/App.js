@@ -2,7 +2,10 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Blogs from "./Pages/Blogs/Blogs";
 import Myprofile from "./Pages/Blogs/MyProfile/Myprofile";
+import AddProduct from "./Pages/DashBoard/AddProduct/AddProduct";
+import AllOrder from "./Pages/DashBoard/AllOrder/AllOrder";
 import DashBoard from "./Pages/DashBoard/DashBoard";
+import ManageProduct from "./Pages/DashBoard/ManageProduct/ManageProduct";
 import Galary from "./Pages/Home/Galary/Galary";
 import Home from "./Pages/Home/Home/Home";
 import Products from "./Pages/Home/Products/Products";
@@ -53,6 +56,12 @@ function App() {
           <Route path="order" element={<MyOrder></MyOrder>}></Route>
           <Route path="review" element={<MyReview></MyReview>}></Route>
           <Route path="profile" element={<Myprofile></Myprofile>}></Route>
+          <Route path="orders" element={<AllOrder></AllOrder>}></Route>
+          <Route path="products" element={<AddProduct></AddProduct>}></Route>
+          <Route
+            path="manageProducts"
+            element={<ManageProduct></ManageProduct>}
+          ></Route>
         </Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
